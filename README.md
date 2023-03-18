@@ -1,8 +1,8 @@
 # ERST
-Evolutionary Reconstructions over Species Trees
+ERST - Evolutionary Reconstructions over Species Trees
 
 The package is developed for Windows and tested with the latest versions of 
-Windows and Java Runtime Environment.
+Windows and Java Runtime Environment. The minimal version of JRE is 1.8.xx.
 
 How to download:
 The download page is 'https://github.com/konovski/ERST', from the subdirectory 
@@ -18,7 +18,8 @@ ERST needs a single working directory, with rights to write in it.
 
 Ways to start ERST:
 1. With "File Explorer": When already deployed in the working directory, 
-   double-click on the file.
+   double-click on the file. In some cases, because of inappropriate configuration
+   of Windows, this approach does not work.
 2. Command line: When already deployed in the working directory, 
    make that tirectory current and start the package  
    with the command 'java -jar ERST.jar'
@@ -37,5 +38,3 @@ During the execution, ERST creates two directories:
    a) 'shortReport.txt' contains a concize summary of the latest run of the package;
    b) 'hgTransferFile.txt' contains text output of the Horizontal Gene Transfers found;
    c) 'poEquilFile.txt' contains text output of the Points of Equilibrium found;
-   
-   
